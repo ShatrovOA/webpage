@@ -76,8 +76,8 @@ The names of program units and external procedures are *global*, and the
 names of implied-DO variables have a scope of the statement that
 contains them.
 
-(modules)=
-## Modules
+
+## Modules {#modules}
 
 Modules are used to package
 

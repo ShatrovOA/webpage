@@ -113,7 +113,7 @@ vector3 =(matrix .times. vector1) + vector2
 
 the two expressions are equivalent only if appropriate parentheses are
 added as shown. In each case there must be defined, in a
-[module](modules),
+[module](program_units_and_procedures.md#modules),
 procedures defining the operator and assignment, and corresponding
 operator-procedure association, as follows:
 
