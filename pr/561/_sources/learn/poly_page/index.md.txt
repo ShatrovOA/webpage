@@ -7,6 +7,5 @@ This is the index page of the dummy project of a multipage booklet.
 :maxdepth: 2
 :hidden:
 
-learn/poly_page/index
-learn/poly_page/start
+start <start>
 ```
