@@ -479,9 +479,8 @@ real, dimension(3), parameter :: field = (/0., 1., 2./)
 type(triplet), parameter      :: t = triplet((/0., 0., 0./))
 ```
 
-### `data` statement
+### `data` statement (data_statement)=
 
-(data_statement)=
 The `data` statement can be used for scalars and also for arrays and
 variables of derived type. It is also the only way to initialise just
 parts of such objects, as well as to initialise to binary, octal or
