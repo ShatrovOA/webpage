@@ -4,7 +4,7 @@
   *Fortran 95/2003 Explained*, Oxford University PressOxford,
   <doi:10.1093/oso/9780198526926.003.0001>, ISBN 978-0-19-852692-6.
 * [Introduction to Modern Fortran](https://doi.org/10.1007/0-387-28123-1_2),
-  Statistics and Computing, New York: Springer-Verlag, 2005, 
+  Statistics and Computing, New York: Springer-Verlag, 2005,
   <doi:10.1007/0-387-28123-1_2>, ISBN 0-387-23817-4
 * Gehrke, Wilhelm (1996).
   [Fortran 95 Language Guide](https://doi.org/10.1007/978-1-4471-1025-5).
