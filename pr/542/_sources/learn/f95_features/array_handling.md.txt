@@ -10,14 +10,11 @@ Array handling is included in Fortran for two main reasons:
 
 At the same time, major extensions of the functionality in this area
 have been added. We have already met whole arrays above
-(see section Arrays in
+(see corresponding sections in
 [Language elements](language_elements.md#arrays)
 and
 [Expressions and assignments](expressions_and_assignments.md#arrays))
-<a href="#Arrays" class="wikilink" title="#Arrays 1">#Arrays 1</a> and
-here
-<a href="#Arrays_2" class="wikilink" title="#Arrays 2">#Arrays 2</a> -
-now we develop the theme.
+and continue to develop the theme.
 
 ## Zero-sized arrays
 
