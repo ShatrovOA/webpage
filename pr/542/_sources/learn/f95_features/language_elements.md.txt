@@ -125,7 +125,7 @@ range(1_two_bytes)
 ```
 
 Also, in
-[`data` (initialization) statements](data_statement),
+[`data` (initialization) statements](data-statement),
 binary (`B`), octal (`O`) and hexadecimal (`Z`) constants
 may be used (often informally referred to as "BOZ constants"):
 
@@ -480,8 +480,6 @@ type(triplet), parameter      :: t = triplet((/0., 0., 0./))
 ```
 
 ### `data` statement
-
-(data_statement)=
 
 The `data` statement can be used for scalars and also for arrays and
 variables of derived type. It is also the only way to initialise just
