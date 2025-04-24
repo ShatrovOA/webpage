@@ -257,7 +257,7 @@ An explicit interface is obligatory for
   [Pointers](pointers.md));
 - `pointer` function result;
 - new-style array arguments and array functions
-  ([Array handling](array_handling)).
+  ([Array handling](array_handling.md)).
 
 It allows full checks at compile time between actual and dummy
 arguments.
