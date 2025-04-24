@@ -44,8 +44,10 @@ of real numbers to integers:
 For *scalar relational* operations of numeric types, there is a set of
 built-in operators:
 
-`<    <=    ==   /=   >   >=`
-`.lt. .le. .eq. .ne. .gt. .ge.`
+```f90
+ <    <=   ==   /=   >    >=
+.lt. .le. .eq. .ne. .gt. .ge.
+```
 
 (the forms above are new to Fortran-90, and older equivalent forms are
 given below them). Example expressions:
