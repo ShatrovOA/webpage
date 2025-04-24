@@ -354,7 +354,7 @@ Here, we note the `result` clause and termination test.
 This is a feature for parallel computing.
 
 In
-[the `forall` statement and construct](forall-statement),
+[the `forall` statement and construct](array_handling.md#the-forall-statement-and-construct),
 any side effects in a function can impede optimization on
 a parallel processor the order of execution of the assignments could
 affect the results. To control this situation, we add the `pure` keyword
