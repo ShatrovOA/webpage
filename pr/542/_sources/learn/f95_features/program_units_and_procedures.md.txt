@@ -77,7 +77,7 @@ names of implied-DO variables have a scope of the statement that
 contains them.
 
 
-## Modules {#modules}
+## Modules
 
 Modules are used to package
 
@@ -201,7 +201,7 @@ Also, `inout` is possible: here the actual argument must be a variable
 Arguments may be optional:
 
 ```f90
-subroutine mincon(n, f, x, upper, lower, equalities, inequalities, & 
+subroutine mincon(n, f, x, upper, lower, equalities, inequalities, &
   convex, xstart)
   real, optional, dimension :: upper, lower
   :
