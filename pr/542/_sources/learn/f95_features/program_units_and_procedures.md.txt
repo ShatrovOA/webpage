@@ -292,12 +292,12 @@ interface gamma
 end interface
 ```
 
-We can use existing names, e.g. SIN, and the compiler sorts out the
+We can use existing names, e.g. `sin`, and the compiler sorts out the
 correct association.
 
 We have already seen the use of interface blocks for defined operators
 and assignment (see
-[Modules](Modules)).
+[Modules](modules)).
 
 ## Recursion
 
