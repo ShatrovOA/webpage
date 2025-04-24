@@ -169,9 +169,14 @@ end subroutine swap
 ```
 
 The dummy arguments cannot be used in specification expressions (see
+[Specification expressions](language_elements.md#specification-expressions)
+mentioned in Language elements)
 <a href="#Specification_expressions" class="wikilink"
-title="above">above</a>) except as arguments to certain intrinsic
+title="above">above</a>)
+except as arguments to certain intrinsic
 functions (`bit_size`, `kind`, `len`, and the numeric inquiry ones, (see
+[Intrinsic data types](language_elements.md#intrinsic-data-types),
+and below).
 <a href="#Intrinsic_data_types" class="wikilink" title="below">below</a>).
 
 ## `where`
