@@ -223,8 +223,8 @@ It is possible to specify that an edit descriptor be repeated a
 specified number of times, using a *repeat count*: `10f12.3`
 
 The slash edit descriptor (see
-[below](control-edit-descriptors))
-may have a repeat count, and a repeat count can
+[Edit descriptors](control-edit-descriptors)
+below) may have a repeat count, and a repeat count can
 also apply to a group of edit descriptors, enclosed in parentheses, with
 nesting:
 
