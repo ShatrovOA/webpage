@@ -61,7 +61,7 @@ print form, q
 ```
 
 or as an asterisk this is a type of I/O known as *list-directed* I/O
-(see [below](list-directed-i/o),
+(see [below](list-directed-i-o),
 in which the format is defined by the computer system:
 
 ```f90
