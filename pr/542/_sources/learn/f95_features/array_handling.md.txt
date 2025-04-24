@@ -53,7 +53,7 @@ call sub(a)
 the corresponding dummy argument specification defines only the type and
 rank of the array, not its shape. This information has to be made
 available by an explicit interface, often using an interface block (see
-[Interface blocks](program_units_and_procedures.md#interface_blocks)).
+[Interface blocks](program_units_and_procedures.md#interface-blocks)).
 Thus we write just
 
 ```f90
