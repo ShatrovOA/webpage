@@ -128,7 +128,7 @@ end interface
 
 The string concatenation function is a more elaborated version of that
 shown already in
-[Basics](Basics).
+[Basics](language_elements.md#basics).
 Note that
 in order to handle the error condition that arises when the two strings
 together exceed the preset 80-character limit, it would be safer to use
