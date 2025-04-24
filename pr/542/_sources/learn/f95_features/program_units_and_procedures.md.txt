@@ -76,7 +76,6 @@ The names of program units and external procedures are *global*, and the
 names of implied-DO variables have a scope of the statement that
 contains them.
 
-
 ## Modules
 
 Modules are used to package
@@ -255,7 +254,7 @@ An explicit interface is obligatory for
 
 - optional and keyword arguments;
 - `pointer` and `target` arguments (see
-  [Pointers](pointers));
+  [Pointers](pointers.md));
 - `pointer` function result;
 - new-style array arguments and array functions
   ([Array handling](array_handling)).
