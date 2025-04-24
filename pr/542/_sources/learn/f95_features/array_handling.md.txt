@@ -292,26 +292,11 @@ we can declare an array of that type:
 type(fun_del), dimension(10, 20) :: tar
 ```
 
-and a reference like
-
-```f90
-tar(n, 2)
-```
-
-is an element (a scalar!) of type `fun_del`, but
-
-```f90
-tar(n, 2)%du
-```
-
-is an array of type `real`, and
-
-```f90
-tar(n, 2)%du(2)
-```
-
-is an element of it. The basic rule to remember is that an array element
-always has a subscript or subscripts qualifying at least the last name.
+A reference like `tar(n, 2)` is an element (a scalar!) of type
+`fun_del`, but `tar(n, 2)%du` is an array of type `real`, and
+`tar(n, 2)%du(2)` is an element of it.  The basic rule to remember
+is that an array element always has a subscript or subscripts
+qualifying at least the last name.
 
 ## Array subobjects (sections)
 
