@@ -734,7 +734,8 @@ expression:</p>
 </pre></div>
 </div>
 <p>or as an asterisk this is a type of I/O known as <em>list-directed</em> I/O
-(see <a class="reference internal" href="#list-directed-i-o"><span class="xref myst">below</span></a>,
+(see
+<a class="reference internal" href="#list-directed-i-o"><span class="xref myst">below</span></a>),
 in which the format is defined by the computer system:</p>
 <div class="highlight-f90 notranslate"><div class="highlight"><pre><span></span><span class="k">print</span><span class="w"> </span><span class="o">*</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Square-root of q = &quot;</span><span class="p">,</span><span class="w"> </span><span class="nb">sqrt</span><span class="p">(</span><span class="n">q</span><span class="p">)</span>
 </pre></div>
@@ -869,7 +870,9 @@ list-directed I/O.</p>
 <h2>Edit descriptors<a class="headerlink" href="#edit-descriptors" title="Link to this heading">#</a></h2>
 <p>It is possible to specify that an edit descriptor be repeated a
 specified number of times, using a <em>repeat count</em>: <code class="docutils literal notranslate"><span class="pre">10f12.3</span></code></p>
-<p>The slash edit descriptor (see below) may have a great count, and
+<p>The slash edit descriptor (see
+<a class="reference internal" href="#control-edit-descriptors"><span class="xref myst">Control edit descriptors</span></a>
+below) may have a great count, and
 a repeat count can also apply to a group of edit descriptors,
 enclosed in parentheses, with nesting:</p>
 <div class="highlight-f90 notranslate"><div class="highlight"><pre><span></span><span class="k">print</span><span class="w"> </span><span class="s2">&quot;(2(2i5,2f8.2))&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">i</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span><span class="n">i</span><span class="p">(</span><span class="mi">2</span><span class="p">),</span><span class="n">a</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span><span class="n">a</span><span class="p">(</span><span class="mi">2</span><span class="p">),</span><span class="w"> </span><span class="n">i</span><span class="p">(</span><span class="mi">3</span><span class="p">),</span><span class="n">i</span><span class="p">(</span><span class="mi">4</span><span class="p">),</span><span class="n">a</span><span class="p">(</span><span class="mi">3</span><span class="p">),</span><span class="n">a</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
